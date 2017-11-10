@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE0B0F191FB5578400D26557 /* SCNNode+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B0F181FB5578400D26557 /* SCNNode+extension.swift */; };
 		BE395F3D1F9D54B80098234E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE395F3C1F9D54B80098234E /* AppDelegate.swift */; };
 		BE395F3F1F9D54B80098234E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BE395F3E1F9D54B80098234E /* art.scnassets */; };
 		BE395F411F9D54B80098234E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE395F401F9D54B80098234E /* ViewController.swift */; };
 		BE395F441F9D54B80098234E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE395F421F9D54B80098234E /* Main.storyboard */; };
 		BE395F461F9D54B80098234E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE395F451F9D54B80098234E /* Assets.xcassets */; };
 		BE395F491F9D54B80098234E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE395F471F9D54B80098234E /* LaunchScreen.storyboard */; };
+		BEB8E2AB1FA5904F00967794 /* Hat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB8E2AA1FA5904F00967794 /* Hat.swift */; };
+		BEB8E2AD1FA591A200967794 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB8E2AC1FA591A200967794 /* Ball.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE0B0F181FB5578400D26557 /* SCNNode+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+extension.swift"; sourceTree = "<group>"; };
 		BE395F391F9D54B80098234E /* MagicHat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicHat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE395F3C1F9D54B80098234E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE395F3E1F9D54B80098234E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		BE395F451F9D54B80098234E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE395F481F9D54B80098234E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE395F4A1F9D54B80098234E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB8E2AA1FA5904F00967794 /* Hat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hat.swift; sourceTree = "<group>"; };
+		BEB8E2AC1FA591A200967794 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				BE395F451F9D54B80098234E /* Assets.xcassets */,
 				BE395F471F9D54B80098234E /* LaunchScreen.storyboard */,
 				BE395F4A1F9D54B80098234E /* Info.plist */,
+				BEB8E2AA1FA5904F00967794 /* Hat.swift */,
+				BEB8E2AC1FA591A200967794 /* Ball.swift */,
+				BE0B0F181FB5578400D26557 /* SCNNode+extension.swift */,
 			);
 			path = MagicHat;
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0B0F191FB5578400D26557 /* SCNNode+extension.swift in Sources */,
+				BEB8E2AD1FA591A200967794 /* Ball.swift in Sources */,
+				BEB8E2AB1FA5904F00967794 /* Hat.swift in Sources */,
 				BE395F411F9D54B80098234E /* ViewController.swift in Sources */,
 				BE395F3D1F9D54B80098234E /* AppDelegate.swift in Sources */,
 			);
